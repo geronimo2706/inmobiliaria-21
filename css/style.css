@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#contacto {
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(to bottom,#fcfefb, #6bb329);
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #fcfefb;
+}
+.main{
+    height: 80vh;
+    background-image: linear-gradient(to bottom,#fcfefb, #6bb329);
+    text-align: center;   
+}
+.propiedades {
+    display: flex;
+    justify-content: center;
+}
+.separacion {
+    padding-right: 3em;
+    padding-left: 3em;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #6bb329;
+    height: 10vh;
+}  
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #6BB329;
+    font-size: 1.5em; 
+}
