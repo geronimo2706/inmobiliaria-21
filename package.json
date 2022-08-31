@@ -1,0 +1,23 @@
+{
+  "name": "inmobiliaria21",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geronimo2706/inmobiliaria-21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geronimo2706/inmobiliaria-21/issues"
+  },
+  "homepage": "https://github.com/geronimo2706/inmobiliaria-21#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

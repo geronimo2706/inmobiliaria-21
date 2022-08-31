@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 #contacto {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background-image: linear-gradient(to bottom,#fcfefb, #6bb329);
 }
 .header {
@@ -32,6 +32,16 @@
     justify-content: space-around;
     background-color: #6bb329;
     height: 10vh;
+}
+#instagram {
+    
+    text-decoration: none;
+    color:#D600BE ;
+}
+#facebook {
+    text-decoration: none;
+    color: #1877F2;
+    
 }  
 nav ul li{
     display: inline-block;
