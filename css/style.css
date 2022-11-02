@@ -14,6 +14,7 @@
     height: 10vh;
     background-color: #fcfefb;
 }
+
 .main{
     height: 80vh;
     background-image: linear-gradient(to bottom,#fcfefb, #6bb329);
@@ -22,6 +23,7 @@
 .propiedades {
     display: flex;
     justify-content: center;
+    font-family: 'Bebas Neue', cursive;
 }
 .separacion {
     padding-right: 3em;
@@ -32,16 +34,22 @@
     justify-content: space-around;
     background-color: #6bb329;
     height: 10vh;
+    font-family: 'Passions Conflict', cursive;
+}
+.text-center {
+   font-size: 2em; 
 }
 #instagram {
-    
+    list-style: none;
     text-decoration: none;
     color:#D600BE ;
+    font-family: 'Pacifico', cursive;
 }
 #facebook {
+    list-style: none;
     text-decoration: none;
     color: #1877F2;
-    
+    font-family: 'Pacifico', cursive;
 }  
 nav ul li{
     display: inline-block;
@@ -51,4 +59,5 @@ nav ul li a{
     text-decoration: none;
     color: #6BB329;
     font-size: 1.5em; 
+    font-family: 'Pacifico', cursive;
 }
