@@ -39,6 +39,10 @@
 .text-center {
    font-size: 2em; 
 }
+.logo:hover{
+    translate: 10px 10px;
+
+}
 #instagram {
     list-style: none;
     text-decoration: none;
@@ -74,6 +78,10 @@ nav ul li a{
         justify-content: center;
         width: 25vh;
         height: 25vh;
+    }
+    .logo{
+        width: 150;
+        height: 5vh;
     }
     #mapa-contacto{
         height: 70vh;
