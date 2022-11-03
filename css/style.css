@@ -72,11 +72,15 @@ nav ul li a{
     .propiedades article img {
         display: flex;
         justify-content: center;
-        width: 30vh;
-        height: 30vh;
+        width: 25vh;
+        height: 25vh;
     }
     #mapa-contacto{
-        height: 60vh;
+        height: 70vh;
+    }
+    #foto_pag_inicio img{
+        width: 33em;
+        height: 30.5em;
     }
 
 }
