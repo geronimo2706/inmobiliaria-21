@@ -1,3 +1,6 @@
+
+
+/*# sourceMappingURL=style.css.map */
 *{
     padding: 0%;
     margin: 0%;
@@ -16,7 +19,7 @@
 }
 
 .main{
-    height: 80vh;
+    height: 82vh;
     background-image: linear-gradient(to bottom,#fcfefb, #6bb329);
     text-align: center;   
 }
@@ -65,6 +68,38 @@ nav ul li a{
     font-size: 1.5em; 
     font-family: 'Pacifico', cursive;
 }
+
+@media only screen and (max-width: 999px){
+    nav ul li a{
+        list-style: none;
+        text-decoration: none;
+        color: #6BB329;
+        font-size: 1em; 
+        font-family: 'Pacifico', cursive;
+    }
+    .propiedades article img {
+        display: flex;
+        justify-content: center;
+        width: 30vh;
+        height: 30vh;
+    }
+    .separacion {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+    .logo{
+        width: 200;
+        height: 7vh;
+    }
+    #mapa-contacto{
+        height: 70vh;
+    }
+    #foto_pag_inicio img{
+        width: 33em;
+        height: 30.5em;
+    }
+
+}
 @media only screen and (max-width: 599px){
     nav ul li a{
         list-style: none;
@@ -78,6 +113,10 @@ nav ul li a{
         justify-content: center;
         width: 25vh;
         height: 25vh;
+    }
+    .separacion {
+        padding-right: 1.5em;
+        padding-left: 1.5em;
     }
     .logo{
         width: 150;
